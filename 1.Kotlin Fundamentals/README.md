@@ -15,19 +15,6 @@ A runnable Kotlin console application covering the requested beginner Kotlin con
 - Edge cases: missing email/department/experience, zero experience, invalid negative experience
 - Readable naming and formatted output
 
-## Run
-
-```bash
-java -jar employee-console.jar
-```
-
-## Build from source
-
-```bash
-kotlinc src/main/kotlin/EmployeeConsole.kt -include-runtime -d employee-console.jar
-java -jar employee-console.jar
-```
-
 ## Experience rules
 
 | Years | Category |
@@ -47,13 +34,4 @@ java -jar employee-console.jar
 - `printEmployees()`: iteration/output responsibility.
 - `main()`: sample data and demonstrations.
 
-## Git submission
 
-```bash
-git init
-git add .
-git commit -m "Create Kotlin employee console program"
-git branch -M main
-```
-
-Push the repository and create a PR. The included `demo-output.txt` can be used as short demo evidence.
